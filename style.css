@@ -1,0 +1,100 @@
+body {
+  background-color: hsl(148, 38%, 91%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main {
+  border-radius: 10px;
+  width: 500px;
+  background-color: white;
+  padding: 30px 30px;
+}
+.contact {
+  color: hsl(187, 24%, 22%);
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
+.name {
+  color: hsl(186, 15%, 59%);
+}
+.names {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.eml {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid gary;
+}
+
+.Query {
+  color: hsl(186, 15%, 59%);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+}
+.email-address {
+  color: hsl(186, 15%, 59%);
+}
+.qtype {
+  color: hsl(186, 15%, 59%);
+}
+.query-left {
+  color: black;
+  border-radius: 5px;
+  border: 2px solid gray;
+  width: 100%;
+}
+.query-right {
+  color: black;
+  border-radius: 5px;
+  border: 2px solid gray;
+  width: 100%;
+}
+
+.email input {
+  width: 100%;
+}
+.message {
+  color: hsl(186, 15%, 59%);
+}
+.mss {
+  height: 100px;
+  width: 100%;
+}
+
+.consent {
+  margin-top: 20px;
+  color: hsl(186, 15%, 59%);
+
+  display: flex;
+  align-items: center;
+}
+.submit {
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: hsl(169, 82%, 27%);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit:hover {
+  color: hsl(169, 82%, 27%);
+  background-color: white;
+  border: 3px solid hsl(169, 82%, 27%);
+}
